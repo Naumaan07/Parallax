@@ -34,7 +34,7 @@ body, html {
 }
 
 .section {
-    text-align: center;
+    text-align: justify;
     padding: 50px 80px;
 }
 
@@ -67,10 +67,20 @@ body, html {
 
 .ptext .border.trans {
     background: transparent;
+    border: 1px solid #fff;
 }
 
 @media(max-width: 568px){
     .pimg1, .pimg2, .pimg3 {
         background-attachment: scroll;
+    }
+
+    .pimg1 .ptext .first {
+        font-size: 1.4rem;
+    }
+        
+    .section {
+        text-align: justify;
+        padding: 30px 25px;
     }
 }
