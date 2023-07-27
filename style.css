@@ -74,7 +74,7 @@ body, html {
     border: 1px solid #fff;
 }
 
-@media(max-width: 568px){
+@media( min-width: 390px) and (max-width: 568px){
     .pimg1, .pimg2, .pimg3 {
         background-attachment: scroll;
     }
@@ -82,13 +82,65 @@ body, html {
     .pimg1 .ptext .first {
         font-size: 1.4rem;
     }
-        
+
     .section {
         text-align: justify;
         padding: 30px 25px;
     }
-    
+
     .section h2 {
         text-align: center;
+    }
+    
+    .ptext .border.trans {
+        font-size: 1.5rem;
+    }
+}
+
+@media( min-width: 280px) and (max-width: 390px) {
+
+    .pimg1 .ptext .first {
+        font-size: 1.2rem;
+    }
+
+    .pimg1 .ptext .last {
+        font-size: 1.3rem;
+    }
+    
+    .section {
+        text-align: justify;
+        padding: 10px 20px;
+    }
+    
+    .ptext .border.trans {
+        font-size: 1.3rem;
+    }
+}
+
+@media(max-width: 280px) {
+
+    .pimg1 .ptext .first {
+        font-size: 0.7rem;
+    }
+
+    .pimg1 .ptext .last {
+        font-size: 0.8rem;
+    }
+    
+    .section {
+        text-align: justify;
+        padding: 10px 15px;
+    }
+
+    .section h2 {
+        font-size: 1.3rem;
+    }
+
+    .section p {
+        font-size: 0.9rem;
+    }
+        
+    .ptext .border.trans {
+     font-size: 0.8rem;
     }
 }
