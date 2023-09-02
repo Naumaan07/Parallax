@@ -76,16 +76,11 @@ body, html {
 
 @media(max-width: 1000px) {
     .pimg1, .pimg2, .pimg3 {
-/*         background-attachment: scroll; */
-        background-attachment: fixed;
+        background-attachment: scroll;
     }
 }
 
 @media(max-width: 568px){
-    .pimg1, .pimg2, .pimg3 {
-        background-attachment: scroll;
-    }
-
     .pimg1 .ptext .first {
         font-size: 1.4rem;
     }
